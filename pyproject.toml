@@ -9,7 +9,15 @@ readme = "README.md"
 python = "^3.11"
 streamlit = "^1.37.1"
 openai = "^1.39.0"
+langchain = "^0.2.12"
+langchain-openai = "^0.1.20"
+langchain-community = "^0.2.11"
+pypdf = "^4.3.1"
+faiss-cpu = "^1.8.0.post1"
 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.6"
 
 [build-system]
 requires = ["poetry-core"]
